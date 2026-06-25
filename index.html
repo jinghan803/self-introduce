@@ -138,6 +138,25 @@ nav a:hover {
 	align-self: self-end;
 	filter:blur(0.5px);
 }
+
+.social-links {
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.social-logo {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    border-radius: 0;
+    filter: none;
+    transition: transform 0.3s ease;
+}
+
+.social-logo:hover {
+    transform: scale(1.15);
+}
 			
 </style>
 
@@ -349,12 +368,32 @@ nav a:hover {
 	<section id="contact">
 		<h2>Contact</h2>
 
-		<ul>
-			<li>Email: <a href="mailto:yzhan949@ucr.edu">yzhan949@ucr.edu</a></li>
-			<li>GitHub: <a href="https://github.com/jinghan803">jinghan803</a></li>
-			<li>LinkedIn: <a href="https://www.linkedin.com/in/linda-zhang-508171389/">linda-zhang-ucr</a></li>
+		<ul class="contact-list">
+			<li>
+				Email:
+				<a href="mailto:yzhan949@ucr.edu">
+					yzhan949@ucr.edu
+				</a>
+			</li>
 		</ul>
 
+		<div class="social-links">
+			<a href="https://github.com/jinghan803">
+				<img
+					src="github-logo.png"
+					alt="GitHub Profile"
+					class="social-logo"
+				>
+			</a>
 
+			<a href="https://www.linkedin.com/in/linda-zhang-508171389/">
+				<img
+					src="linkedin-logo.png"
+					alt="LinkedIn Profile"
+					class="social-logo"
+				>
+			</a>
+		</div>
+	</section>
 </body>
 	
