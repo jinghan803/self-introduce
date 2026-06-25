@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<!--主要使用语言为英语-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai&display=swap" rel="stylesheet"><!--字体链接-->
+<link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+    rel="stylesheet"
+>
+<title>Self-Introduce</title>
+
+<style>
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body{
+	min-height: 100%vh;
+	background:linear-gradient(
+	to bottom, 
+	#FFF5C3 0%,
+	#FFD5E0 40%,
+	#FCA5F1  70%, 
+	#B06AB3 100%
+	);
+}
+
+section{
+	min-height: 100vh;
+	padding: 40px;
+	box-sizing: border-box;
+}
+
+h1{
+	font-family: "Ma Shan Zheng", cursive;
+	font-size: 80px;
+	text-align: left;
+	color:#94ca92;
+	filter:blur(0.5px);
+	text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+}
+
+h2{
+	font-family: "Indie Flower", cursive;
+	font-size: 40px;
+	text-align: center;
+	color:#82c719;
+	text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+}
+
+p{
+	font-family: "LXGW WenKai", cursive;
+	font-size: 30px;
+	text-align: center;
+	color:#99de30;
+	text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+}
+
+li{
+	font-family: "LXGW WenKai", cursive;
+	font-size: 18px;
+	color:#62cd3b;
+	text-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
+}
+
+table{
+	font-family: "LXGW WenKai", cursive;
+	font-size: 18px;
+	color:#62cd3b;
+	text-shadow: 0 0 20px rgba(255, 255, 255, 0.9);
+	width: 90%;
+    margin: 30px auto;
+
+    border-collapse: separate;
+    border-spacing: 45px 12px;
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+nav a {
+	font-family: "ZCOOL KuaiLe", cursive;
+    color: #82c719;
+    text-decoration: none;
+    font-size: 20px;
+	filter:blur(0.5px);
+	text-shadow: 0 0 16px rgba(255, 255, 255, 0.9);
+}
+
+nav a:hover {
+    color: #ffffff;
+	background-color: rgba(176, 106, 179, 0.45);
+	filter:blur(0px);
+
+	text-shadow: 
+		0 0 5px #ffffff,
+        0 0 12px #fca5f1;
+
+	transform: translateY(-3px) scale(1.08); /*<!--字体效果变大-->*/
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-text {
+    max-width: 1200px;
+	align-self: self-start;
+}
+
+.about-image {
+    width: 450px;
+    height: auto;
+    margin-top: 20px;
+	align-self: self-end;
+	filter:blur(0.5px);
+}
+			
+</style>
+
+</head>
+
+<body>
+	<section>
+		<h1>Linda Zhang</h1>
+		<nav>
+			<a href="#about">About</a>
+			<a href="#education">Education</a>
+			<a href="#projects">Projects</a>
+			<a href="#experience">Experience</a>
+			<a href="#skills">Skills</a>
+			<a href="#courses">Courses</a>
+			<a href="#contact">Contact</a>
+		</nav>
+	</section>
+
+	<section id="about"> 
+
+		<div class="about-text">
+			<h2>About Me</h2>
+			<p> 
+				Hi! My name is Linda Zhang, and I am a Computer Science student
+				at the University of California, Riverside. I am interested in
+				web development, artificial intelligence, and game development.
+				I enjoy designing visually appealing, interactive websites and
+				developing my own versions of games that inspire me.
+			</p>
+		</div>
+
+		<div class="about-container">
+			<img 
+				src = "音符.png"
+				alt="Decorative music notes"
+				class="about-image"
+			>
+		</div>
+	</section>
+
+	<section id="education">
+		<h2>Education</h2>
+
+		<ul> 
+			<li>
+				<strong>B.S. in Computer Science</strong> -
+				<em>University of California, Riverside</em>
+				(2023 - Expected 2027)
+			</li>
+			<br>
+			<li>
+				<strong>High School Diploma</strong> -
+				<em>Xi'an Tieyi High School International Department, China</em>
+				(September 2019 - June 2022)
+			</li>
+		</ul>
+	</section>
+
+	<section id="projects">
+		<h2>Projects</h2>
+
+		<ul>
+			<li>
+				<strong>Chess Game</strong> -
+				<em>Four-Person Team Project</em>
+				(December 2025 - March 2026)
+
+				<ul>
+					<li>
+						Designed and developed the chessboard interface,
+						including piece selection and legal-move highlighting.
+					</li>
+
+					<li>
+						Implemented the core game logic in C++, including
+						movement validation, check, checkmate, and game-result detection.
+					</li>
+				</ul>
+			</li>
+
+			<li>
+				<strong>Complex Variables Research Project</strong> -
+				<em>Team Research Project</em>
+				(January 2023 - February 2023)
+
+				<ul>
+					<li>
+						Independently studied the fundamentals of complex analysis
+						and completed the assigned work accurately.
+					</li>
+
+					<li>
+						Coordinated team responsibilities and helped the group
+						complete the final research summary.
+					</li>
+				</ul>
+			</li>
+
+			<li>
+				<strong>Diamond Challenge</strong> -
+				<em>Entrepreneurship Competition</em>
+				(October 2019 - February 2020)
+
+				<ul>
+					<li>
+						Led the planning of an entrepreneurship project and
+						transformed the idea into a visual presentation.
+					</li>
+
+					<li>
+						Coordinated a four-person team and managed the project
+						schedule, helping the team advance to the final round.
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</section>
+
+	<section id="experience">
+		<h2>Work Experience</h2>
+
+		<ul>
+			<li>
+				<strong>Algorithm Development Intern</strong> -
+				<em>Integrated Innovation Center, Institute of Software,
+					Chinese Academy of Sciences</em>
+				(August 2024)
+
+				<ul>
+					<li>
+						Independently implemented the core code of the Chimp
+						Optimization Algorithm by studying and referencing
+						related algorithm models.
+					</li>
+
+					<li>
+						Identified and analyzed problems during the algorithm
+						implementation process and prepared a summary report
+						describing the corresponding solutions.
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</section>
+
+	<section id="skills">
+		<h2>Skills</h2>
+
+		<ul>
+			<li>Programming Languages: C++, Python, JavaScript, HTML, CSS, Unity</li>
+			<li>Web Development: Vue.js, Node.js</li>
+			<li>Database Management: MySQL, MongoDB</li>
+			<li>Version Control: Git, GitHub</li>
+			<li>Software Tools: Visual Studio Code</li>
+		</ul>
+	</section>
+
+	<section id="courses">
+		<h2>Courses</h2>
+
+		<table>
+			<thead> 
+				<tr> 
+					<th>Course Name</th> 
+					<th>Description</th> 
+					<th>Term</th> 
+				</tr> 
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>CS 160</td>
+					<td>Concurrent Programming and Parallel Systems</td>
+					<td>Spring 2026</td>
+				</tr>
+				<tr>
+					<td>CS 135</td>
+					<td>Virtual and Augmented Reality</td>
+					<td>Spring 2026</td>
+				</tr>
+				<tr>
+					<td>CS 111</td>
+					<td>Discrete Structures</td>
+					<td>Winter 2026</td>
+				</tr>
+				<tr>
+					<td>CS 100</td>
+					<td>Software Construction</td>
+					<td>Winter 2026</td>
+				</tr>
+				<tr>
+					<td>CS 153</td>
+					<td>Design of Operating Systems</td>
+					<td>Spring 2026</td>
+				</tr>
+				<tr>
+					<td>CS 120A</td>
+					<td>Logic Design</td>
+					<td>Spring 2026</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+
+	<section id="contact">
+		<h2>Contact</h2>
+
+		<ul>
+			<li>Email: <a href="mailto:yzhan949@ucr.edu">yzhan949@ucr.edu</a></li>
+			<li>GitHub: <a href="https://github.com/lindazhang-ucr">lindazhang-ucr</a></li>
+			<li>LinkedIn: <a href="https://www.linkedin.com/in/linda-zhang-ucr/">linda-zhang-ucr</a></li>
+		</ul>
+
+
+</body>
+	
